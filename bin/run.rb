@@ -1,3 +1,12 @@
 require_relative '../config/environment'
 
-puts "hello world"
+cli = CLI.new
+
+cli.welcome
+cli.movieselection
+
+
+
+cli.end_the_app
+
+# puts "hello world"
